@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.ddm</groupId>
+		<groupId>com.github</groupId>
 		<artifactId>spring_boot_document_master</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 	</parent>
-	<groupId>com.ddm.api.document</groupId>
+	<groupId>com.github.document</groupId>
 	<artifactId>spring_boot_document</artifactId>
 	<version>1.0.2</version>
 
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.58</version>
+			<version>1.2.68</version>
 		</dependency>
 		
 	</dependencies>
