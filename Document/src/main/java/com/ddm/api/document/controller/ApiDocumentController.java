@@ -44,7 +44,7 @@ public class ApiDocumentController {
 			return doc;
 		}
 		// 未设置扫描包路径，等同为关闭
-		if (null == vos && null != config.getController() && !"".equals(config.getController().trim())) {
+		if (null == vos && (null == config.getController() || "".equals(config.getController().trim()))) {
 			// 文档关闭
 			doc.setCode(1001);
 			return doc;
